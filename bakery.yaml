@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [NotoSans-Italic.ttf.ttx, NotoSans-BoldItalic.ttf.ttx, NotoSans-Bold.ttf.ttx,
+  NotoSans-Regular.ttf.ttx, src/NotoSans-Regular-orig.ttf.ttx, src/NotoSans-Bold-orig.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
